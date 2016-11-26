@@ -2,9 +2,9 @@ import os
 import sys
 import time
 
+#run in background
 if os.fork():
     sys.exit()
-
 
 import socket
 import subprocess
