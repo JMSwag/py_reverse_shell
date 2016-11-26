@@ -6,7 +6,6 @@ import time
 if os.fork():
     sys.exit()
 
-print("github test")
 import socket
 import subprocess
 
