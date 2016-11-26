@@ -6,6 +6,7 @@ import time
 if os.fork():
     sys.exit()
 
+print("test")
 import socket
 import subprocess
 
