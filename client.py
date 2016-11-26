@@ -5,6 +5,7 @@ import time
 #run in background
 if os.fork():
     sys.exit()
+vjugvjgv
 
 print("test")
 import socket
